@@ -28,10 +28,10 @@ In Postman, set the request to **POST** and do the following:
 
 - **Body Type**: `form-data`
 - **Parameters**:
-  - `client_id`: Your client ID
-  - `client_secret`: Your client secret
-  - `grant_type`: `client_credentials`
-  - `scope`: `trust`
+  - `client_id`: `692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com`
+  - `client_secret`: `erZOWM9g3UtwNRj340YYaK_W `
+  - `grant_type`: `client_credentials `
+  - `scope`: ` trust `
 
 #### Steps:
 1. Set the method to **POST**.
@@ -45,7 +45,7 @@ In Postman, set the request to **POST** and do the following:
 - **URL**: `https://rahulshettyacademy.com/oauthapi/getCourseDetails`
 
 #### Query Parameter:
-- `access_token`: Use the token obtained from the first step.
+- `access_token`: Take the token you got earlier and use it to get more information
 
 #### Steps:
 1. Set the method to **GET**.
